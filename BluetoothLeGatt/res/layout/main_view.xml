@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="125dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/IncomingData"
+        android:layout_marginTop="100dp"
+        android:textSize="75dp"
+        android:text="154" />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="Start Recording"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:layout_weight="0.16" />
+</LinearLayout>
